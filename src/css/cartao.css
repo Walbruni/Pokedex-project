@@ -1,0 +1,136 @@
+.cartao-pokemon {
+  display: none;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border-radius: 10px;
+}
+
+.cartao-pokemon .cartao-topo {
+  padding: 30px 40px 0;
+}
+
+.cartao-pokemon .nome {
+  margin-bottom: 5px;
+}
+
+.cartao-pokemon .tipo {
+  font-size: 12px;
+  background-color: #ffffff;
+  opacity: 0.7;
+  border-radius: 10px;
+  padding: 2px 10px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.cartao-pokemon .detalhes {
+  color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cartao-pokemon .cartao-imagem {
+  width: 350px;
+  height: 350px;
+}
+
+.cartao-pokemon img {
+  max-height: 100%;
+}
+
+.cartao-pokemon .cartao-informacoes {
+  display: flex;
+  justify-content: space-between;
+  background-color: #ffffff;
+  padding: 80px 30px 50px;
+  margin-top: -70px;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+
+.cartao-pokemon .cartao-informacoes h3 {
+  font-size: 20px;
+  margin-bottom: 15px;
+  border-bottom: 1px solid #6b727a;
+}
+
+.cartao-pokemon .cartao-informacoes .status,
+.cartao-pokemon .cartao-informacoes .habilidades {
+  padding: 0 10px;
+  width: 180px;
+}
+
+.cartao-pokemon .cartao-informacoes .habilidades ul li,
+.cartao-pokemon .cartao-informacoes .status ul li {
+  border-bottom: 1px solid #c3c4c5;
+  padding: 0 0 5px;
+  margin-bottom: 5px;
+  font-size: 15px;
+}
+
+.cartao-pokemon.aberto {
+  display: block;
+}
+
+.tipo-fogo {
+  background-color: #ff9d55;
+}
+
+.tipo-eletrico {
+  background-color: #f3c940;
+}
+
+.tipo-agua {
+  background-color: #5aaef8;
+}
+
+.tipo-planta {
+  background-color: #19b459;
+}
+
+.tipo-fantasma {
+  background-color: #731bad;
+}
+
+.tipo-dragao {
+  background-color: #3f3dbb;
+}
+
+.tipo-inseto {
+  background-color: #91ca70;
+}
+
+.tipo-fada {
+  background-color: rgb(243, 144, 197);
+}
+
+.tipo-gelo {
+  background-color: rgb(106, 218, 226);
+}
+
+.tipo-lutador {
+  background-color: rgb(209, 80, 80);
+}
+
+.tipo-normal {
+  background-color: #b3b3b6;
+}
+
+.tipo-pedra {
+  background-color: #dab98a;
+}
+
+.tipo-psiquico {
+  background-color: #fa7179;
+}
+
+.tipo-terra {
+  background-color: #cd853f;
+}
+
+.tipo-voador {
+  background-color: rgb(181, 214, 243);
+}
+
+.tipo-venenoso {
+  background-color: #a273c2;
+}
